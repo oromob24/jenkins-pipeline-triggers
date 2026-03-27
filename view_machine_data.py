@@ -3,6 +3,7 @@ import os
 
 def main():
     hostname = socket.gethostname()
+    print(f"Hello Orlando Romo")
     print(f"Name of the server: {hostname}")
     print(f'The current directory is: {os.getcwd()}')
 
